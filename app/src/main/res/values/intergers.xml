@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Variables for activity_main layout-->
+    <dimen name="normal_main_bigButton">85dp</dimen>
+    <dimen name="normal_main_smallButton">30dp</dimen>
+
+    <dimen name="large_main_bigButton">150dp</dimen>
+    <dimen name="large_main_smallButton">45dp</dimen>
+
+
+    ///////////////////////////////////////////////////////////////////////////
+    <!--Variables for activity_input layout-->
+    <dimen name="normal_input_display">60sp</dimen>
+    <dimen name="normal_input_delete">20sp</dimen>
+    <dimen name="normal_input_num">45sp</dimen>
+    <dimen name="normal_input_button">35sp</dimen>
+
+    <dimen name="large_input_display">100sp</dimen>
+    <dimen name="large_input_delete">35sp</dimen>
+    <dimen name="large_input_num">55sp</dimen>
+    <dimen name="large_input_button">45sp</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list"
+        android:entryValues="@array/lvalues"
+        android:key="list"
+        android:summary="Choose your alarm sound"
+        android:title="Alarm Sound" />
+    <ListPreference
+        android:defaultValue="3000"
+        android:entries="@array/pauseTime"
+        android:entryValues="@array/pauseValue"
+        android:key="pause"
+        android:summary="Choose your pause time"
+        android:title="Pause Time" />
+    <EditTextPreference
+        android:defaultValue="10"
+        android:inputType="number"
+        android:key="pref_addTime"
+        android:summary="Choose how much time to add(sec)"
+        android:title="Add Time">
+    </EditTextPreference>
+    <Preference
+        android:title="Alarm Sound"
+        android:summary="Pick Alarm Sound"
+        android:key="pref_filePicker">
+    </Preference>
+    <RingtonePreference android:title="ring_pref"
+        android:ringtoneType="all">
+    </RingtonePreference>
+</PreferenceScreen>

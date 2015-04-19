@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvRealTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="00:00:00"
+        android:textSize="@dimen/normal_main_bigButton" />
+
+    <Button
+        android:id="@+id/bStartTimer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="@dimen/normal_main_bigButton" />
+
+    <Button
+        android:id="@+id/bResetTimer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="@dimen/normal_main_bigButton" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/bAddTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="6.5"
+            android:text="+10s"
+            android:textSize="@dimen/normal_main_smallButton" />
+
+        <Button
+            android:id="@+id/bEditTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.5"
+            android:text="Edit"
+            android:textSize="@dimen/normal_main_smallButton" />
+    </LinearLayout>
+
+</LinearLayout>
